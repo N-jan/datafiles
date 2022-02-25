@@ -2,8 +2,9 @@
 git clone https://github.com/GoogleCloudPlatform/training-data-analyst
 
 ls
+cd training-data-analyst
 
-cd /training-data-analyst/courses/bdml_fundamentals/demos/earthquakevm
+cd courses/bdml_fundamentals/demos/earthquakevm
 
 ./ingest.sh
 
