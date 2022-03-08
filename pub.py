@@ -9,7 +9,7 @@ def cook_txn():
     txnAmt = Curr + Amt[1:]
     txn = cardFull + address + '\n' + txnAmt + '\n'
     print(txn)
-    return(txn)
+    return(txn.encode('utf-8'))
 
 
 
